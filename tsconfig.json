@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components": [ "src/components" ],
+      "@scss": [ "src/scss" ],
+      "@img": [ "src/img" ],
+      "@": [ "src" ],
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

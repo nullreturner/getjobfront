@@ -1,44 +1,13 @@
-@import '_variables';
+@import "~bootstrap/scss/bootstrap.scss";
 
-body {
-    background: $primary-color;
+// Import Custom Variables
+@import "variables.scss";
 
-  p {
-    color: white;
-  }
-}
-
-.box {
-  border-radius: 10px;
-}
-
-*, 
-*::after, 
-*::before {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-}
-
-body {
-  align-items: center;
-  background: transparent url(../../static/images/webpack-logo.png);
-  background-size: 200px 226px;
-  display: flex;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  height: 100vh;
-  justify-content: center;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-}
+// Import Custom SCSS
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+@import "navbar.scss";
+@import "cards.scss";
+@import "login.scss";
+@import "footer.scss";

@@ -4,7 +4,7 @@ const cleanWebpackPlugin = require("./clean.js");
 const webpackPlugin = require("./internal.js");
 
 module.exports = [
-	htmlWebpackPlugin,
+	...htmlWebpackPlugin,
 	copyWebpackPlugin,
 	cleanWebpackPlugin,
 	...webpackPlugin,

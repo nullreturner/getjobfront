@@ -8,7 +8,15 @@ module.exports = merge(common, {
   mode: 'development',
   module: {
     rules: [
-      scssRule
+      scssRule,
+      {
+	    test: /\.css$/,
+	    use: [
+		'style-loader', 
+	        'css-loader',
+		'postcss-loader',
+	    ],
+      },
     ]
   },
   plugins: [

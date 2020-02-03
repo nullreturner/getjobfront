@@ -12,9 +12,9 @@ module.exports = merge(common, {
       {
 	    test: /\.css$/,
 	    use: [
-		'style-loader', 
+          'style-loader', 
 	        'css-loader',
-		'postcss-loader',
+		      'postcss-loader',
 	    ],
       },
     ]

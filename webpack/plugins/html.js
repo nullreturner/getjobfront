@@ -22,7 +22,7 @@ const titles = [
 
 module.exports = titles.map(title => {
 	return new HtmlWebpackPlugin({
-		template: path.join(__dirname, "../../src/html", `${title}.html`),
+		template: path.join(__dirname, "../../src/html/", `${title}.html`),
 		path: path.join(__dirname, "../../dist"),
 		filename: `${title}.html`,
 		inject: true,

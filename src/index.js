@@ -1,14 +1,14 @@
+import "@fortawesome/fontawesome-free/js/all";
+require('@fortawesome/fontawesome-free/css/all.css');
+import "bootstrap";
+import "chart.js";
+import "datatables.net-bs4";
+import "jquery";
+import "jquery.easing";
+
 import "./scripts";
 import "./styles/index.scss";
 import "./styles/index.css";
-import "./styles/css/sb-admin.css";
-
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/regular'
-//import @fortawesome/fontawesome-free/js/brands
-
-
 
 
 
